@@ -14,16 +14,17 @@ color: black;
 padding: 25px;
 transition-duration: 1s;
 padding-top: 50px;
-
+background: none;
 
 }
 
 li a:hover{
-    font-size: 40px;
+    font-size: 30px;
     transition-duration: 2s;
     
 }
 ul{
     list-style: none;
+    background: none;
 
 }
