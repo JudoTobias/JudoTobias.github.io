@@ -35,4 +35,4 @@ header {
     font-weight: 1500;
 }
 
-text { font-family: Arial, Helvetica, sans-serif;}
+html * { font-family: Arial, Helvetica, sans-serif !important;}
