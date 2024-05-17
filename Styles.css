@@ -57,3 +57,11 @@ nav {
     margin: 0;
     padding: 0;
 }
+.HomepageText
+{
+    width: 45%;
+    height: 20%;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 25%;
+}
