@@ -57,3 +57,14 @@ nav {
     margin: 0;
     padding: 0;
 }
+
+.contactlogo{
+    display: flex;
+    justify-content: center;
+}
+
+.contactusmain {
+        padding: 5%;
+        margin: 3%;
+        background-color: aqua;
+}
