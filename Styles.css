@@ -34,7 +34,7 @@ ul{
     list-style: none;
     background: none;
     background-color:rgba(132,218,243,255);
-    
+    padding: 5px;
     border:1px solid #000;
    
 
@@ -73,14 +73,21 @@ nav {
 }
 
 .logo {
-    width: 10%;
+    width: 15%;
     height: 10%;
 }
 
 .HomepageText {
-    margin-top: 20%;
-    margin-left: 25%;
-    width: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 25%;
     height: 10%;
     font-size: 40;
+    background: none !important;
+    
+}
+
+.HomepageText2 {
+    background: none !important;
+    
 }
