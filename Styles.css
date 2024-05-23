@@ -80,7 +80,7 @@ color: rgb(0, 0, 0);
 }
 
 .HomepageText {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 15%;
     width: 25%;
     height: 10%;
@@ -92,4 +92,9 @@ color: rgb(0, 0, 0);
 .HomepageText2 {
     background: none !important;
     
+}
+
+#Shopnow {
+    width: 50%;
+    height: 100%;
 }
