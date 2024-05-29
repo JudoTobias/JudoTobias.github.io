@@ -99,3 +99,15 @@ color: rgb(0, 0, 0);
     width: 50%;
     height: 100%;
 }
+#bestsell{
+    border: black solid ;
+    text-align: center;
+    margin-top: 36.2%;
+    font-size: 50px;
+    font-weight: 600;  
+}
+
+.Product {
+    display: flex;
+    justify-content: space-around;
+}
