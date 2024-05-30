@@ -108,14 +108,16 @@ color: rgb(0, 0, 0);
 }
 
 .Product {
-    display: flex;
-    justify-content: flex-start;
-    width: 25%;
-    text-align: justify;
-    flex-flow: column;
-    text-align: center;
+    display: inline-block;
     border: #000 solid;
-    margin: 5px ;
-    padding: 5px ;
+    text-align: center;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
+.Product img {
+    width: 100%;
+  
 }
 
