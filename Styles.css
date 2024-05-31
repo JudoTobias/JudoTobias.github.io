@@ -111,12 +111,17 @@ color: rgb(0, 0, 0);
     display: inline-block;
     border: #000 solid;
     text-align: center;
-    width: 30%;
+    width: 560px;
     margin-top: 2%;
     margin-left: 2%;
+   background-color: white !important;
     
 }
 .Product img {
     
 width:  100%;
+height: 560px;
+}
+.Product text {
+    background-color: white;
 }
