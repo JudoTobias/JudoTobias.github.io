@@ -125,3 +125,8 @@ height: 560px;
 .Product p {
     background-color: white;
 }
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+}
