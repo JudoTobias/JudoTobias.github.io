@@ -116,7 +116,8 @@ color: rgb(0, 0, 0);
     margin-top: 2%;
     margin-left: 2%;
    background-color: white !important;
-    
+   height: 750px;
+  vertical-align: top;
 }
 .Product img {
     
@@ -125,6 +126,7 @@ height: 560px;
 }
 .Product p {
     background-color: white;
+    
 }
 
 .Product h1 {
@@ -138,4 +140,9 @@ height: 560px;
     background-color: black;
     color: white;
     text-align: center;
+   
 }
+
+
+.donuttext { font-size: 35px;
+    font-weight: bolder;}
