@@ -182,3 +182,12 @@ nav {
     font-size: 25px;
     font-weight: 100;
 }
+
+.unusualdonuts { 
+ border: black solid ;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    font-weight: 600;  
+}
