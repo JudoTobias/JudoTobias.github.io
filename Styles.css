@@ -177,3 +177,8 @@ margin-bottom: 4%;
     
     }
     
+#backgroundhomepage {
+    background-image: url(/images/donutbackground3.0.jpg);
+     background-position-y: 120px;
+      background-repeat: no-repeat;
+}

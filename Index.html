@@ -1,10 +1,11 @@
 <html>
   <head>
+      <!-- onderstuk is de standard code in de head wat op iedere pagina staat wat zorgt er voor de het css bestand gelinkt is en dat de titel en icon goed zijn-->
     <link rel="stylesheet" href="Styles.css">
     <title> Home </title>
     <link rel="icon" href="/images/Dickies icon.jpg" type="image">
   </head>
-  <body style="background-image: url(/images/donutbackground3.0.jpg); background-position-y: 120px; background-repeat: no-repeat; ">
+  <body id="backgroundhomepage">
     <!--Onderstaande ul is de navbar -->
     <ul class="sticky">
       <li>
@@ -16,13 +17,13 @@
         <a href="Index.html"> Home </a>
       </li>
     </ul>
-    <!-- Onderstaande Div is de homepage text en de shop now knop er onder-->
+    <!-- Onderstaande Div is de homepagina tekst en de shopnow knop er onder-->
     <div class="HomepageText">
       <p class="HomepageText2">
        Are you hungry and want some top-tier donuts? Then we got you! Buy 6 donuts and get one free. All donuts are freshly made with our great bakers!
       </p>
       <br>
-      <a href="Shop.html"> <img   id="Shopnow" src="/images/shop-now-button-black-background-27b6ebqxi85cmbud.png" alt="Shop now"> </a>
+      <a href="Shop.html"> <img id="Shopnow" src="/images/shop-now-button-black-background-27b6ebqxi85cmbud.png" alt="Shop now"> </a>
     </div>
 <!-- Onderstaande Div is de Bestsellers text -->
     <div id="bestsell">
@@ -30,7 +31,7 @@
         Best Sellers
       </p>
     </div>
-<!-- Onderstaande is de eerste donut-->
+<!-- Onderstaande div is de eerste donut-->
 <a class="ProductpageA"   href="Productpage.html">    
   <div class="Product">
       <img src="/images/Pink fairy Donut.jpg" alt="donutimg">
@@ -42,7 +43,8 @@
       <h1> €2.99 </h1>
     </div>
   </a>
-<!-- Onderstaande is de tweede donut-->
+<!-- Onderstaande div is de tweede donut-->
+<a class="ProductpageA"   href="Productpage.html">
       <div class="Product">
       <img src="/images/Brownie Donut.jpg" alt="donutimg">
       <p class="donuttext"> Brownie Donut </p>
@@ -52,7 +54,9 @@
       <br>
       <h1> €2.99  </h1>
     </div>
-<!-- Onderstaande is de derde donut-->
+    </a>
+<!-- Onderstaande div is de derde donut-->
+<a class="ProductpageA"   href="Productpage.html">
     <div class="Product">
       <img src="/images/Confetti Donut.jpg" alt="donutimg">
       <p class="donuttext"> Confetti donut</p>
@@ -61,9 +65,10 @@
       <br>
       <h1> <s class="deal"> €2.99 </s> €1.99 </h1>
     </div>
+</a>
+<!--onderstaande div is de Footer -->
     <br>
     <br>
-
     <div class="footer">
       © 2024 Dickies-Donuts. All Rights Reserved.
      <br>
