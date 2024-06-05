@@ -18,9 +18,6 @@ transition-duration: 1s;
 padding-top: 30px;
 background: none;
 float: right;
-
-
-
 }
 
 li a:hover{
@@ -29,6 +26,7 @@ li a:hover{
     color: antiquewhite;
         
 }
+
 ul{
     align-items: top;
     list-style: none;
@@ -48,8 +46,6 @@ ul{
     text-align: center;
 }
 
-html * { font-family: Arial, Helvetica, sans-serif !important;}
-
 nav {
     font-size: 30px;
     font-weight: 2400;
@@ -60,19 +56,19 @@ nav {
     margin: 0;
     padding: 0;
     background-color: rgba(132,218,243,255);
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .contactlogo{
     display: flex;
    justify-content: space-around;
-   
 }
 
 .contactusmain1 {
-display: flex;
-justify-content: center;
-border: 5px solid; color: #000; padding: 3%; margin: 3%;
-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    border: 5px solid; color: #000; padding: 3%; margin: 3%;
+    color: rgb(0, 0, 0);
 }
 
 .logo {
@@ -88,12 +84,10 @@ color: rgb(0, 0, 0);
     height: 10%;
     font-size: 40;
     background: none !important;
-    
 }
 
-.HomepageText2 {
-    background: none !important;
-    
+.HomepageText p {
+    background: none !important;   
 }
 
 #Shopnow {
@@ -115,41 +109,40 @@ color: rgb(0, 0, 0);
     width: 560px;
     margin-top: 2%;
     margin-left: 2%;
-   background-color: white !important;
-   height: 750px;
-  vertical-align: top;
+    background-color: white !important;
+    height: 750px;
+    vertical-align: top;
 }
+
 .Product img {
-    
-width:  100%;
-height: 560px;
+    width:  100%;
+    height: 560px;
 }
+
 .Product p {
     background-color: white;
-    
 }
 
 .Product h1 {
     background-color: white;
 }
+
 .footer {
-    
     left: 0;
     bottom: 0;
-    
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
-   
 }
 
-
-.donuttext { font-size: 35px;
-    font-weight: bolder;}
+.donuttext { 
+    font-size: 35px;
+    font-weight: bolder;
+}
 
 .deal {
-        background-color: white;
+    background-color: white;
     }
 
 .ProductpageA {
@@ -157,28 +150,35 @@ height: 560px;
 } 
 
 .Productpagedonut {
-font-size: 50px;
-font-weight: bold;
-margin-left: 7%;
-margin-top: 3%;
-margin-bottom: 4%;
-
-
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 8%;
 }
+
+.Productpagedonut img {
+    border: #000 solid;
+}
+
 .Productpagedonuttext {
     font-size: 70px;
     font-weight: bold;
     display: inline-flex;
-   margin-right: 20%;
-   margin-top: 10%;
-   float: right;
-   flex-flow: column;
+    margin-right: 20%;
+    margin-top: 10%;
+    float: right;
+    flex-flow: column;
     width: 30%;
-    
-    }
+}
     
 #backgroundhomepage {
     background-image: url(/images/donutbackground3.0.jpg);
-     background-position-y: 120px;
-      background-repeat: no-repeat;
+    background-position-y: 120px;
+    background-repeat: no-repeat;
+}
+
+.Productpagetext2 {
+    font-size: 25px;
+    font-weight: 100;
 }
