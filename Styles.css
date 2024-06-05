@@ -136,6 +136,7 @@ height: 560px;
     
     left: 0;
     bottom: 0;
+    
     width: 100%;
     background-color: black;
     color: white;
@@ -147,6 +148,29 @@ height: 560px;
 .donuttext { font-size: 35px;
     font-weight: bolder;}
 
-    .deal {
+.deal {
         background-color: white;
     }
+
+.ProductpageA {
+    color: black;
+} 
+
+.Productpagedonut {
+font-size: 50px;
+font-weight: bold;
+margin: 3%;
+
+
+}
+.Productpagedonuttext {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-flex;
+   margin-right: 30%;
+   margin-top: 10%;
+   float: right;
+   flex-flow: column;
+
+    }
+    
