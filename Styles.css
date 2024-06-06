@@ -87,7 +87,7 @@ ul{
     width: 50%;
     height: 100%;
 }
-/*dit is een id die */
+/*dit is een id die de bestsellers tekst opmaak doet*/
 #bestsell{
     border: black solid ;
     text-align: center;
@@ -95,7 +95,7 @@ ul{
     font-size: 50px;
     font-weight: 600;  
 }
-/*dit is een class die */
+/*dit is een class die de groote van de producten in de shop doet */
 .Product {
     display: inline-block;
     border: #000 solid;
@@ -107,20 +107,20 @@ ul{
     height: 750px;
     vertical-align: top;
 }
-/*dit is een class die */
+/*dit is een class die de groote van de afbeeldinggen van de producten doet*/
 .Product img {
     width:  100%;
     height: 560px;
 }
-/*dit is een class die */
+/*dit is een class die de groote van de achtergrond van de text van de producten doen */
 .Product p {
     background-color: white;
 }
-/*dit is een class die */
+/*dit is een class die de groote van de achtergrond van de text van de producten doen */
 .Product h1 {
     background-color: white;
 }
-/*dit is een class die */
+/*dit is een class die de opmaak van de footer doet */
 .footer {
     left: 0;
     bottom: 0;
@@ -130,20 +130,20 @@ ul{
     text-align: center;
     margin-top: 1%;
 }
-/*dit is een class die */
+/*dit is een class die de groote van de naam van de donuts in de shop doet  */
 .donuttext { 
     font-size: 35px;
     font-weight: bolder;
 }
-/*dit is een class die */
+/*dit is een class die de achtergrond van de deal veranderd */
 .deal {
     background-color: white;
     }
-/*dit is een class die */
+/*dit is een class die de tekst kleur veranderd van de donuts */
 .ProductpageA {
     color: black;
 } 
-/*dit is een class die */
+/*dit is een class die de div op de product pagina veranderd*/
 .Productpagedonut {
     font-size: 50px;
     font-weight: bold;
@@ -151,11 +151,11 @@ ul{
     margin-top: 3%;
     margin-bottom: 8%;
 }
-/*dit is een class die */
+/*dit is een class die de afbeelding groote op de product pagina veranderd*/
 .Productpagedonut img {
     border: #000 solid;
 }
-/*dit is een class die */
+/*dit is een class die de tekst op de product van de product pagina veranderd */
 .Productpagedonuttext {
     font-size: 70px;
     font-weight: bold;
@@ -166,18 +166,18 @@ ul{
     flex-flow: column;
     width: 30%;
 }
-/*dit is een id die */
+/*dit is een id die de achtergrond op de home page veranderd */
 #backgroundhomepage {
     background-image: url(/images/donutbackground3.0.jpg);
     background-position-y: 120px;
     background-repeat: no-repeat;
 }
-/*dit is een id die */
+/*dit is een class die tekst op de product page veranderd*/
 .Productpagedescription {
     font-size: 25px;
     font-weight: 100;
 }
-/*dit is een class die */
+/*dit is een class die de kop van de unusual donut's veranderd */
 .unusualdonuts { 
  border: black solid ;
     text-align: center;
