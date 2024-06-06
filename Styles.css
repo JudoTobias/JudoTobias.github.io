@@ -123,12 +123,12 @@ ul{
 /*dit is een class die de opmaak van de footer doet */
 .footer {
     left: 0;
-    bottom: 0;
+    bottom: -10%;
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 1%;
+   position: relative;
 }
 /*dit is een class die de groote van de naam van de donuts in de shop doet  */
 .donuttext { 
@@ -138,7 +138,12 @@ ul{
 /*dit is een class die de achtergrond van de deal veranderd */
 .deal {
     background-color: white;
-    }
+}
+/*dit is een class die de achtergrond van de deal op de product paginaveranderd */
+.dealproductpage {
+        background-color: rgba(132,218,243,255);
+}
+
 /*dit is een class die de tekst kleur veranderd van de donuts */
 .ProductpageA {
     color: black;
@@ -153,6 +158,7 @@ ul{
 }
 /*dit is een class die de afbeelding groote op de product pagina veranderd*/
 .Productpagedonut img {
+    width: 35% ;
     border: #000 solid;
 }
 /*dit is een class die de tekst op de product van de product pagina veranderd */
@@ -169,7 +175,7 @@ ul{
 /*dit is een id die de achtergrond op de home page veranderd */
 #backgroundhomepage {
     background-image: url(/images/donutbackground3.0.jpg);
-    background-position-y: 120px;
+    background-position-y: 130px;
     background-repeat: no-repeat;
 }
 /*dit is een class die tekst op de product page veranderd*/
