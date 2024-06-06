@@ -9,22 +9,21 @@ li {
 
 li a{
     align-items: top;
-font-family: Arial, Helvetica, sans-serif;
-text-decoration: none;
-font-size: 30px;
-color: black;
-padding: 25px;
-transition-duration: 1s;
-padding-top: 30px;
-background: none;
-float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 25px;
+    transition-duration: 1s;
+    padding-top: 30px;
+    background: none;
+    float: right;
 }
 
 li a:hover{
     font-size: 35px;
     transition-duration: 2s;
     color: antiquewhite;
-        
 }
 
 ul{
@@ -35,8 +34,6 @@ ul{
     padding: 5px;
     border:1px solid #000;
     z-index: 99999;
-   
-
 }
 
 .header {
