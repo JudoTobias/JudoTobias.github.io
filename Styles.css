@@ -1,12 +1,13 @@
+/*dit is een class die er voor zorgt dat de navbar sticky is en boven aan blijft */
 .sticky {
     top: 0;
     position: sticky;
 }
-
+/*dit zorgt er voor dat alle li's naast elkaar staam*/
 li {
     display: inline;
 }
-
+/*de zorgt voor hoe de tekst van de li's er uit zien*/
 li a{
     align-items: top;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,13 +20,13 @@ li a{
     background: none;
     float: right;
 }
-
+/*dit zorgt er voor dat de li's veranderen van kleur en groote als je er met je muis overheen gaat*/
 li a:hover{
     font-size: 35px;
     transition-duration: 2s;
     color: antiquewhite;
 }
-
+/*dit zorgt er voor dat de ul(navbar) de goede groote en kleur heeft ook zorgt de "z-index" ervoor dat hij voor de afbeeldingen staat */
 ul{
     align-items: top;
     list-style: none;
@@ -35,7 +36,7 @@ ul{
     border:1px solid #000;
     z-index: 99999;
 }
-
+/*dit is een class die er voor zorgt dat de header bepaalde groot en letter type heeft */
 .header {
     font-size: 80px;
     font-weight: 4000;
@@ -43,38 +44,33 @@ ul{
     text-align: center;
 }
 
-nav {
-    font-size: 30px;
-    font-weight: 2400;
-    text-align: center;
-}
-
+/*dit zorgt er voor de de alles de volgende eigenschapen heeft*/
 * {
     margin: 0;
     padding: 0;
     background-color: rgba(132,218,243,255);
     font-family: Arial, Helvetica, sans-serif !important;
 }
-
-.contactlogo{
+/*dit is een id die er voor zorgt dat afbeeldingen op een bepaalde manier naast elkaar komen te staan */
+#contactlogo{
     display: flex;
    justify-content: space-around;
 }
-
+/*dit is een class die zorgt voor tekst op maak */
 .contactusmain1 {
     display: flex;
     justify-content: center;
     border: 5px solid; color: #000; padding: 3%; margin: 3%;
     color: rgb(0, 0, 0);
 }
-
+/*dit is een class die ervoor zorgt deat het logo ind e navbar de goede groote hebben*/
 .logo {
     width: 15%;
     height: 10%;
     margin-bottom: 10px;
 }
-
-.HomepageText {
+/*dit is een id de tekst op de homepage veranderd */
+#HomepageText {
     margin-top: 10%;
     margin-left: 15%;
     width: 25%;
@@ -82,15 +78,16 @@ nav {
     font-size: 40;
     background: none !important;
 }
-
-.HomepageText p {
+/*dit is een id die de achtergrond van de tekst op de homepage veranderd */
+#HomepageText p {
     background: none !important;   
 }
-
+/*dit is een id die de shopnow knop onder de tekst op de homepage de goede groote maakt */
 #Shopnow {
     width: 50%;
     height: 100%;
 }
+/*dit is een id die */
 #bestsell{
     border: black solid ;
     text-align: center;
@@ -98,7 +95,7 @@ nav {
     font-size: 50px;
     font-weight: 600;  
 }
-
+/*dit is een class die */
 .Product {
     display: inline-block;
     border: #000 solid;
@@ -110,20 +107,20 @@ nav {
     height: 750px;
     vertical-align: top;
 }
-
+/*dit is een class die */
 .Product img {
     width:  100%;
     height: 560px;
 }
-
+/*dit is een class die */
 .Product p {
     background-color: white;
 }
-
+/*dit is een class die */
 .Product h1 {
     background-color: white;
 }
-
+/*dit is een class die */
 .footer {
     left: 0;
     bottom: 0;
@@ -133,20 +130,20 @@ nav {
     text-align: center;
     margin-top: 1%;
 }
-
+/*dit is een class die */
 .donuttext { 
     font-size: 35px;
     font-weight: bolder;
 }
-
+/*dit is een class die */
 .deal {
     background-color: white;
     }
-
+/*dit is een class die */
 .ProductpageA {
     color: black;
 } 
-
+/*dit is een class die */
 .Productpagedonut {
     font-size: 50px;
     font-weight: bold;
@@ -154,11 +151,11 @@ nav {
     margin-top: 3%;
     margin-bottom: 8%;
 }
-
+/*dit is een class die */
 .Productpagedonut img {
     border: #000 solid;
 }
-
+/*dit is een class die */
 .Productpagedonuttext {
     font-size: 70px;
     font-weight: bold;
@@ -169,18 +166,18 @@ nav {
     flex-flow: column;
     width: 30%;
 }
-    
+/*dit is een id die */
 #backgroundhomepage {
     background-image: url(/images/donutbackground3.0.jpg);
     background-position-y: 120px;
     background-repeat: no-repeat;
 }
-
-#Productpagedescription {
+/*dit is een id die */
+.Productpagedescription {
     font-size: 25px;
     font-weight: 100;
 }
-
+/*dit is een class die */
 .unusualdonuts { 
  border: black solid ;
     text-align: center;
