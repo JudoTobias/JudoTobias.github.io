@@ -134,6 +134,7 @@ ul{
 .donuttext { 
     font-size: 35px;
     font-weight: bolder;
+    
 }
 /*dit is een class die de achtergrond van de deal veranderd */
 .deal {
@@ -147,6 +148,9 @@ ul{
 /*dit is een class die de tekst kleur veranderd van de donuts */
 .ProductpageA {
     color: black;
+    text-decoration: none;
+    margin-top: 1%;
+    background-color: white;
 } 
 /*dit is een class die de div op de product pagina veranderd*/
 .Productpagedonut {
